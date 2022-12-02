@@ -26,7 +26,7 @@ Project aims to create your Analog and Digital Clock Web Page
 
 ## Expected Outcome
 
-![Project 004 Snapshot](./project04.png)
+
 
 ## Objective
 
