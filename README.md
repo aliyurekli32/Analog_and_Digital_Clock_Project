@@ -30,7 +30,7 @@ Project aims to create your Analog and Digital Clock Web Page
 
 ## Objective
 
-Build a responsive web page similar to [Project 004 Snapshot](./project04.png) 
+Build a responsive web page similar to [A_D_Clock](./clock.gif) 
 ### At the end of the project, following topics are to be covered;
 
 - HTML 
