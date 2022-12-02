@@ -25,7 +25,7 @@ Project aims to create your Analog and Digital Clock Web Page
 ```
 
 ## Expected Outcome
-
+![](https://github.com/aliyurekli32/Analog_and_Digital_Clock_Project/blob/main/clock.gif)
 
 
 ## Objective
