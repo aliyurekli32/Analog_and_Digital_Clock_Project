@@ -1,0 +1,115 @@
+body{
+    background-color: rgb(183, 130, 232);
+}
+
+#clockContainer {
+    position: relative;
+    margin: auto;
+    height: 40vw;
+   
+    /*to make the height and width responsive*/
+    width: 40vw;
+    background: url(./clock-without-hands.png) no-repeat;
+    /*setting our background image*/
+    background-size: 100%;
+}
+
+#hour,
+#minute,
+#second,#circle {
+    position: absolute;
+    
+    border-radius: 10px;
+    transform-origin: bottom;
+    
+    
+    /* transform-origin: 5em 30em; */
+}
+
+#hour {
+    background: black;
+    width: 2.8%;
+    height: 18%;
+    top: 29.50%;
+    left: 49.20%;
+    /* opacity: 0.8; */
+}
+
+#minute {
+    background: black;
+    width: 1.8%;
+    height: 25%;
+    top: 24%;
+    left: 49.95%;
+    /* opacity: 0.7; */
+}
+#second {
+    background: black;
+    width: 1%;
+    height: 30%;
+    top: 18%;
+    left: 50.19%;
+    opacity: 0.6;
+}
+#circle {
+    background: black;
+    height: 5%;
+    width: 5%;
+    border-radius: 50%;
+    top: 45.5%;
+    left: 48.19%;
+    
+}
+#digital_clockContainer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: -50px;
+}
+
+#d_hour{
+    color: rgb(184, 6, 6);
+    font-size: 44px;
+    transform: rotate(45deg);
+    animation: animateHeart 2.4s infinite;
+}
+#d_minute{
+    color: black;
+    font-size: 44px;
+    transform: rotate(45deg);
+    animation: animateHeart 2.4s infinite;
+}
+#d_second{
+    color: rgb(129, 59, 10);
+    font-size: 44px;
+    transform: rotate(45deg);
+    animation: animateHeart 2.4s infinite;
+}
+
+#d_hour,#d_minute,#d_second :hover{
+    font-size: 60px;
+}
+
+@keyframes animateHeart {
+    
+    0% {
+      transform: scale(0.8);
+    }
+    5% {
+      transform: scale(0.9);
+    }
+    10% {
+      transform:  scale(0.8);
+    }
+    15% {
+      transform:  scale(1);
+    }
+    50% {
+      transform:  scale(0.8);
+    }
+    100% {
+      transform:  scale(0.8);
+    }
+  }
+
+  
